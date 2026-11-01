@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 12" width="100%" role="img" aria-label="Animated Gradient Section Divider">
+  <defs>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#3b82f6">
+        <animate attributeName="stop-color" values="#3b82f6;#8b5cf6;#14b8a6;#3b82f6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#14b8a6;#3b82f6;#8b5cf6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="80%" stop-color="#14b8a6">
+        <animate attributeName="stop-color" values="#14b8a6;#3b82f6;#8b5cf6;#14b8a6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="4" width="1000" height="3" rx="1.5" fill="url(#divGrad)"/>
+</svg>

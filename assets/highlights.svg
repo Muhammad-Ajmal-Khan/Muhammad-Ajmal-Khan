@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="100%" role="img" aria-label="4 Stat Cards built from Muhammad Ajmal Khan's Academic Record">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <style>
+      .stat-num { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 800; fill: url(#borderGrad); }
+      .stat-label { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #e6edf3; letter-spacing: 0.4px; }
+      .stat-sub { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 11.5px; fill: #8b949e; }
+    </style>
+  </defs>
+
+  <g transform="translate(5, 10)">
+    <rect width="235" height="130" rx="12" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="0" y="0" width="235" height="4" rx="2" fill="url(#borderGrad)"/>
+    <text x="117.5" y="56" text-anchor="middle" class="stat-num">B.S. (SE)</text>
+    <text x="117.5" y="86" text-anchor="middle" class="stat-label">CURRENT DEGREE</text>
+    <text x="117.5" y="108" text-anchor="middle" class="stat-sub">GCUF (Sahiwal Campus)</text>
+  </g>
+
+  <g transform="translate(256, 10)">
+    <rect width="235" height="130" rx="12" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="0" y="0" width="235" height="4" rx="2" fill="url(#borderGrad)"/>
+    <text x="117.5" y="56" text-anchor="middle" class="stat-num">7th Sem</text>
+    <text x="117.5" y="86" text-anchor="middle" class="stat-label">ACADEMIC STANDING</text>
+    <text x="117.5" y="108" text-anchor="middle" class="stat-sub">Status: Continued</text>
+  </g>
+
+  <g transform="translate(508, 10)">
+    <rect width="235" height="130" rx="12" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="0" y="0" width="235" height="4" rx="2" fill="url(#borderGrad)"/>
+    <text x="117.5" y="56" text-anchor="middle" class="stat-num">2023–27</text>
+    <text x="117.5" y="86" text-anchor="middle" class="stat-label">DEGREE COHORT</text>
+    <text x="117.5" y="108" text-anchor="middle" class="stat-sub">4-Year BS Program</text>
+  </g>
+
+  <g transform="translate(760, 10)">
+    <rect width="235" height="130" rx="12" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="0" y="0" width="235" height="4" rx="2" fill="url(#borderGrad)"/>
+    <text x="117.5" y="56" text-anchor="middle" class="stat-num">3</text>
+    <text x="117.5" y="86" text-anchor="middle" class="stat-label">QUALIFICATIONS</text>
+    <text x="117.5" y="108" text-anchor="middle" class="stat-sub">Matric • I.C.S. • B.S. (SE)</text>
+  </g>
+</svg>

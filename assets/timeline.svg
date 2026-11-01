@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="100%" role="img" aria-label="Animated Academic Timeline from 2021 to 2027">
+  <defs>
+    <linearGradient id="tlBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="barGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="barGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <style>
+      .role-title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #f0f6fc; }
+      .role-inst { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #8b949e; }
+      .date-badge { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #14b8a6; }
+    </style>
+  </defs>
+
+  <rect width="996" height="246" x="2" y="2" rx="14" fill="url(#tlBg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <g transform="translate(35, 34)">
+    <text x="0" y="16" class="role-title">B.S. in Software Engineering (Continued — 7th Semester)</text>
+    <text x="0" y="35" class="role-inst">GCUF (Sahiwal Campus)</text>
+    <text x="925" y="16" text-anchor="end" class="date-badge">2023 – 2027</text>
+    <rect x="0" y="45" width="925" height="12" rx="6" fill="#21262d"/>
+    <rect x="280" y="45" width="0" height="12" rx="6" fill="url(#barGrad3)">
+      <animate attributeName="width" from="0" to="645" dur="1.4s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <g transform="translate(35, 108)">
+    <text x="0" y="16" class="role-title">I.C.S. (Intermediate in Computer Science — Completed)</text>
+    <text x="0" y="35" class="role-inst">BISE Sahiwal</text>
+    <text x="925" y="16" text-anchor="end" class="date-badge">2023</text>
+    <rect x="0" y="45" width="925" height="12" rx="6" fill="#21262d"/>
+    <rect x="140" y="45" width="0" height="12" rx="6" fill="url(#barGrad2)">
+      <animate attributeName="width" from="0" to="220" dur="1.2s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <g transform="translate(35, 182)">
+    <text x="0" y="16" class="role-title">Matriculation (Completed)</text>
+    <text x="0" y="35" class="role-inst">BISE Sahiwal</text>
+    <text x="925" y="16" text-anchor="end" class="date-badge">2021</text>
+    <rect x="0" y="45" width="925" height="12" rx="6" fill="#21262d"/>
+    <rect x="0" y="45" width="0" height="12" rx="6" fill="url(#barGrad1)">
+      <animate attributeName="width" from="0" to="180" dur="1s" fill="freeze"/>
+    </rect>
+  </g>
+</svg>
